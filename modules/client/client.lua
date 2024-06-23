@@ -14,21 +14,6 @@ function setMusic(filename)
 end
 
 function startup()
-    -- Play startup music (The Silver Tree, by Mattias Westlund)
-    if musicChannel then
-        musicChannel:enqueue(musicFilename, 3)
-        connect(g_game, {
-            onGameStart = function()
-                musicChannel:stop(3)
-            end
-        })
-        connect(g_game, {
-            onGameEnd = function()
-                g_sounds.stopAll()
-                musicChannel:enqueue(musicFilename, 3)
-            end
-        })
-    end
 
     -- Check for startup errors
     local errtitle = nil

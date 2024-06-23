@@ -105,7 +105,6 @@ GamePlayerMarket = 17
 GameSpritesU32 = 18
 GameChargeableItems = 19
 GameOfflineTrainingTime = 20
-GamePurseSlot = 21
 GameFormatCreatureName = 22
 GameSpellList = 23
 GameClientPing = 24

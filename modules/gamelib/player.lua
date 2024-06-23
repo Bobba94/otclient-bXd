@@ -31,7 +31,6 @@ InventorySlotLeg = 7
 InventorySlotFeet = 8
 InventorySlotFinger = 9
 InventorySlotAmmo = 10
-InventorySlotPurse = 11
 
 InventorySlotFirst = 1
 InventorySlotLast = 10

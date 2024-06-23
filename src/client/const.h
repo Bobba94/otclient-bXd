@@ -101,7 +101,6 @@ namespace Otc
         InventorySlotFeet,
         InventorySlotRing,
         InventorySlotAmmo,
-        InventorySlotPurse,
         InventorySlotExt1,
         InventorySlotExt2,
         InventorySlotExt3,
@@ -450,8 +449,7 @@ namespace Otc
         GamePlayerMarket = 17,
         GameSpritesU32 = 18,
         // 19 unused
-        GameOfflineTrainingTime = 20,
-        GamePurseSlot = 21,
+        GameOfflineTrainingTime = 20,    
         GameFormatCreatureName = 22,
         GameSpellList = 23,
         GameClientPing = 24,

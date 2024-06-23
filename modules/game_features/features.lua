@@ -77,7 +77,6 @@ controller:registerEvents(g_game, {
         end
 
         if version >= 953 then
-            g_game.enableFeature(GamePurseSlot)
             g_game.enableFeature(GameClientPing)
         end
 
